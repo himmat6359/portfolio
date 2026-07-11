@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Himmat Prajapati | Full Stack Laravel Developer &amp; ERP Specialist</title>
+<meta name="description" content="Himmat Prajapati — Full Stack Web Developer specializing in Laravel, PHP, MySQL &amp; ERP systems. Building business ERPs, school &amp; hostel management systems, and custom web applications from Ahmedabad, India.">
+<meta name="keywords" content="Himmat Prajapati, Laravel Developer, Full Stack Developer, PHP Developer, ERP Developer, Ahmedabad Web Developer, Salon ERP, School Management System">
+<meta name="author" content="Himmat Prajapati">
+<meta property="og:title" content="Himmat Prajapati | Full Stack Laravel Developer">
+<meta property="og:description" content="I build modern, secure, scalable ERP &amp; web systems with Laravel, PHP &amp; MySQL.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0A0E1A">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%2322D3EE%22>H</text></svg>">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<!-- AOS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Scroll Progress Bar -->
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgressBar"></div></div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-glass fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="#home">
+      <span class="brand-mark">H</span><span class="brand-text">Himmat<span class="text-gradient">.dev</span></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item ms-lg-2">
+          <button id="themeToggle" class="theme-toggle" aria-label="Toggle light and dark mode">
+            <i class="fa-solid fa-sun"></i><i class="fa-solid fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header id="home" class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="container hero-inner">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-6" data-aos="fade-up">
+        <p class="eyebrow"><span class="dot"></span> Available for freelance &amp; full-time roles</p>
+        <h1 class="hero-title">Hi, I'm <span class="text-gradient">Himmat Prajapati</span></h1>
+        <p class="hero-role">
+          <span id="typedRole" class="typed-role"></span><span class="cursor">|</span>
+        </p>
+        <p class="hero-desc">
+          I build modern, secure, responsive, and scalable web applications for businesses, startups, salons, schools, hostels, and personal brands.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-gradient">View Portfolio</a>
+          <a href="assets/Himmat_Prajapati_Resume.pdf" download class="btn btn-outline-glass"><i class="fa-solid fa-download me-2"></i>Download Resume</a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://linkedin.com/in/himmat-prajapati-78a00b285" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/himmat6359" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:himmatjprajapati@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="tel:+916359495452" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+          <a href="https://wa.me/916359495452" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
+        <!-- Signature element: live ERP-style dashboard mockup -->
+        <div class="dash-window">
+          <div class="dash-titlebar">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="dash-path">himmat-erp / production <i class="fa-solid fa-circle-check ok-icon"></i></span>
+          </div>
+          <div class="dash-body">
+            <div class="dash-stats">
+              <div class="dash-stat">
+                <span class="dash-num" data-count="4">0</span>
+                <span class="dash-label">ERP Modules Shipped</span>
+              </div>
+              <div class="dash-stat">
+                <span class="dash-num" data-count="72">0</span>+
+                <span class="dash-label">MCA Percentile Score</span>
+              </div>
+              <div class="dash-stat">
+                <span class="dash-num" data-count="1">0</span>y+
+                <span class="dash-label">Production Support</span>
+              </div>
+              <div class="dash-stat">
+                <span class="dash-num" data-count="100">0</span>%
+                <span class="dash-label">Responsive Builds</span>
+              </div>
+            </div>
+            <div class="dash-chartline">
+              <svg viewBox="0 0 300 70" preserveAspectRatio="none">
+                <polyline points="0,55 30,45 60,50 90,30 120,35 150,15 180,25 210,10 240,18 270,5 300,12" />
+              </svg>
+            </div>
+            <ul class="dash-modules">
+              <li><i class="fa-solid fa-scissors"></i> Salon ERP <span class="tag tag-live">live</span></li>
+              <li><i class="fa-solid fa-bed"></i> Hostel Management <span class="tag">v2</span></li>
+              <li><i class="fa-solid fa-star"></i> Astrology Platform <span class="tag">v1</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll down"><i class="fa-solid fa-chevron-down"></i></a>
+</header>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-5" data-aos="fade-right">
+        <p class="section-eyebrow">// about-me</p>
+        <h2 class="section-title">The developer behind<br>the <span class="text-gradient">dashboards</span></h2>
+        <p class="section-text">
+          I'm an MCA graduate and Full Stack Web Developer with hands-on experience in Laravel, PHP, MySQL, HTML, CSS, and JavaScript. Alongside development, I work as a Software Support Engineer, managing SQL databases, API testing, FTP servers, and software deployment for a live production environment.
+        </p>
+        <p class="section-text">
+          I enjoy turning messy manual workflows into clean, modern ERP systems — the kind that help salons, schools, and hostels automate the work they used to do on paper.
+        </p>
+        <div class="about-tags">
+          <span>Laravel</span><span>PHP</span><span>MySQL</span><span>JavaScript</span><span>ERP Systems</span><span>API Testing</span>
+        </div>
+      </div>
+      <div class="col-lg-7" data-aos="fade-left">
+        <div class="row g-4">
+          <div class="col-sm-6">
+            <div class="glass-card info-card">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <h3>MCA Graduate</h3>
+              <p>L.J. Institute of Computer Application, L.J. University — 2023–2025</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="glass-card info-card">
+              <i class="fa-solid fa-briefcase"></i>
+              <h3>Software Support Engineer</h3>
+              <p>Height8 Technologies Pvt. Ltd., Ahmedabad — July 2025 to Present</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="glass-card info-card">
+              <i class="fa-solid fa-diagram-project"></i>
+              <h3>ERP &amp; Business Systems</h3>
+              <p>Salon, School, and Hostel management platforms built end-to-end.</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="glass-card info-card">
+              <i class="fa-solid fa-location-dot"></i>
+              <h3>Based in Ahmedabad</h3>
+              <p>Thaltej, Ahmedabad, Gujarat — available remote &amp; on-site.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="section section-alt">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <p class="section-eyebrow justify-content-center">// services</p>
+      <h2 class="section-title">What I Can Build</h2>
+      <p class="section-text mx-auto" style="max-width:640px">Modular systems designed the way real businesses actually operate — from a single billing screen to a full multi-branch ERP.</p>
+    </div>
+    <div class="row g-4">
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="glass-card service-card">
+          <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+          <h3>ERP Systems</h3>
+          <ul class="chip-list">
+            <li>Business ERP</li><li>Salon ERP</li><li>Billing</li><li>Inventory</li><li>Reports</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
+        <div class="glass-card service-card">
+          <div class="service-icon"><i class="fa-solid fa-school"></i></div>
+          <h3>School Management System</h3>
+          <ul class="chip-list">
+            <li>Student</li><li>Fees</li><li>Attendance</li><li>Staff</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
+        <div class="glass-card service-card">
+          <div class="service-icon"><i class="fa-solid fa-bed"></i></div>
+          <h3>Hostel Management System</h3>
+          <ul class="chip-list">
+            <li>Student Management</li><li>Room Allocation</li><li>Fee Collection</li><li>Attendance</li><li>Reports</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="glass-card service-card">
+          <div class="service-icon"><i class="fa-solid fa-moon"></i></div>
+          <h3>Astrology Website</h3>
+          <ul class="chip-list">
+            <li>Daily Horoscope</li><li>Kundli</li><li>Rashi</li><li>Appointment Booking</li><li>Admin Panel</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
+        <div class="glass-card service-card">
+          <div class="service-icon"><i class="fa-solid fa-id-card"></i></div>
+          <h3>Personal Portfolio Website</h3>
+          <ul class="chip-list">
+            <li>Professional Portfolio</li><li>Resume</li><li>Projects</li><li>Contact Form</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
+        <div class="glass-card service-card">
+          <div class="service-icon"><i class="fa-solid fa-building"></i></div>
+          <h3>Business Website</h3>
+          <ul class="chip-list">
+            <li>Company Website</li><li>Services</li><li>Gallery</li><li>Testimonials</li><li>Contact</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="glass-card service-card">
+          <div class="service-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+          <h3>E-commerce Website</h3>
+          <ul class="chip-list">
+            <li>Shopping Cart</li><li>Online Payment</li><li>Admin Panel</li><li>Orders</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
+        <div class="glass-card service-card">
+          <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Custom Web Applications</h3>
+          <ul class="chip-list">
+            <li>Any Laravel or PHP based solution built to your exact requirements.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY CHOOSE ME ================= -->
+<section class="section">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <p class="section-eyebrow justify-content-center">// why-choose-me</p>
+      <h2 class="section-title">Built Right, The First Time</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="0"><div class="feature-pill"><i class="fa-solid fa-mobile-screen-button"></i><span>Responsive Design</span></div></div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="40"><div class="feature-pill"><i class="fa-solid fa-shield-halved"></i><span>Secure Coding</span></div></div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="80"><div class="feature-pill"><i class="fa-brands fa-laravel"></i><span>Laravel Expert</span></div></div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="120"><div class="feature-pill"><i class="fa-solid fa-gauge-high"></i><span>Fast Performance</span></div></div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="0"><div class="feature-pill"><i class="fa-solid fa-brush"></i><span>Clean UI</span></div></div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="40"><div class="feature-pill"><i class="fa-solid fa-magnifying-glass-chart"></i><span>SEO Friendly</span></div></div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="80"><div class="feature-pill"><i class="fa-solid fa-database"></i><span>Database Optimization</span></div></div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="120"><div class="feature-pill"><i class="fa-solid fa-headset"></i><span>Free Support</span></div></div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="0"><div class="feature-pill"><i class="fa-solid fa-table-columns"></i><span>Modern Dashboard</span></div></div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="40"><div class="feature-pill"><i class="fa-solid fa-mobile"></i><span>Mobile Friendly</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PORTFOLIO ================= -->
+<section id="work" class="section section-alt">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <p class="section-eyebrow justify-content-center">// selected-work</p>
+      <h2 class="section-title">Recent Projects</h2>
+    </div>
+
+    <div class="filter-bar" data-aos="fade-up">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="erp">ERP</button>
+      <button class="filter-btn" data-filter="management">Management Systems</button>
+      <button class="filter-btn" data-filter="website">Websites</button>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-lg-6 project-item" data-cat="erp" data-aos="fade-up">
+        <div class="glass-card project-card">
+          <div class="project-head">
+            <span class="project-tag">Featured</span>
+            <h3>Salon Management ERP</h3>
+            <a href="https://demo.acmeinfosoft.com" target="_blank" rel="noopener" class="project-link">demo.acmeinfosoft.com <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="project-tech">
+            <span>Laravel 12</span><span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+          </div>
+          <ul class="project-features">
+            <li>Multi Branch Management</li><li>Appointment Booking</li><li>Billing</li><li>Inventory</li>
+            <li>Attendance</li><li>Employee Management</li><li>Income &amp; Expense</li><li>Reports</li>
+            <li>Customer Management</li><li>Role Based Login</li><li>Website + ERP</li><li>Responsive Design</li>
+          </ul>
+          <a href="https://demo.acmeinfosoft.com" target="_blank" rel="noopener" class="btn btn-gradient btn-sm-full">Live Demo</a>
+        </div>
+      </div>
+
+      <div class="col-lg-6 project-item" data-cat="management" data-aos="fade-up" data-aos-delay="100">
+        <div class="glass-card project-card">
+          <div class="project-head">
+            <h3>Hostel Management System</h3>
+          </div>
+          <div class="project-tech">
+            <span>Laravel</span><span>PHP</span><span>MySQL</span>
+          </div>
+          <ul class="project-features">
+            <li>Student Management</li><li>Room Allocation</li><li>Hostel Fees</li><li>Visitor Entry</li>
+            <li>Attendance</li><li>Complaint Management</li><li>Staff Management</li><li>Reports</li><li>Dashboard</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-6 project-item" data-cat="website" data-aos="fade-up">
+        <div class="glass-card project-card">
+          <div class="project-head">
+            <h3>Astrology Website</h3>
+          </div>
+          <div class="project-tech">
+            <span>Laravel</span><span>PHP</span><span>MySQL</span>
+          </div>
+          <ul class="project-features">
+            <li>Daily Horoscope</li><li>Zodiac Signs</li><li>Kundli</li><li>Online Appointment</li>
+            <li>Admin Panel</li><li>Responsive Design</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= RESUME ================= -->
+<section id="resume" class="section">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <p class="section-eyebrow justify-content-center">// resume</p>
+      <h2 class="section-title">Experience &amp; Education</h2>
+      <a href="assets/Himmat_Prajapati_Resume.pdf" download class="btn btn-outline-glass mt-3"><i class="fa-solid fa-download me-2"></i>Download Full Resume</a>
+    </div>
+
+    <div class="row g-5">
+      <!-- Timeline column -->
+      <div class="col-lg-7">
+        <div data-aos="fade-up">
+          <h3 class="resume-subhead"><i class="fa-solid fa-briefcase"></i> Experience</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-date">July 2025 — Present</span>
+                <h4>Software Support Engineer</h4>
+                <p class="timeline-org">Height8 Technologies Pvt. Ltd., Ahmedabad</p>
+                <ul class="chip-list">
+                  <li>SQL Database Management</li><li>Database Backup</li><li>FTP Management</li>
+                  <li>Software Deployment</li><li>Client Support</li><li>API Testing</li>
+                  <li>Requirement Documentation</li><li>Scrum Meetings</li><li>Live Tag Implementation</li><li>Troubleshooting</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-subhead mt-5"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-date">2023 — 2025 · Score: 72.10%</span>
+                <h4>Master of Computer Application (MCA)</h4>
+                <p class="timeline-org">L.J. Institute of Computer Application, L.J. University, Ahmedabad</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-date">2021 — 2023 · Score: 68.38%</span>
+                <h4>Bachelor of Commerce (B.Com)</h4>
+                <p class="timeline-org">Shree K.R. Anjana College, HNGU</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-date">2019 — 2020 · Score: 64%</span>
+                <h4>HSC Science</h4>
+                <p class="timeline-org">Vivekananda Vidyalaya</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills & personal details column -->
+      <div class="col-lg-5">
+        <div class="glass-card mb-4" data-aos="fade-up">
+          <h3 class="resume-subhead"><i class="fa-solid fa-address-card"></i> Personal Details</h3>
+          <ul class="detail-list">
+            <li><span>Name</span><strong>Himmat Prajapati</strong></li>
+            <li><span>Location</span><strong>Ahmedabad – Thaltej</strong></li>
+            <li><span>Phone</span><strong><a href="tel:+916359495452">+91 6359495452</a></strong></li>
+            <li><span>Email</span><strong><a href="mailto:himmatjprajapati@gmail.com">himmatjprajapati@gmail.com</a></strong></li>
+            <li><span>LinkedIn</span><strong><a href="https://linkedin.com/in/himmat-prajapati-78a00b285" target="_blank" rel="noopener">View Profile</a></strong></li>
+            <li><span>GitHub</span><strong><a href="https://github.com/himmat6359" target="_blank" rel="noopener">himmat6359</a></strong></li>
+          </ul>
+        </div>
+
+        <div class="glass-card mb-4" data-aos="fade-up" data-aos-delay="80">
+          <h3 class="resume-subhead"><i class="fa-solid fa-code"></i> Technical Skills</h3>
+          <div class="skill-group">
+            <p class="skill-cat">Programming</p>
+            <div class="chip-list"><span>PHP</span><span>Laravel</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>C</span></div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-cat">Database</p>
+            <div class="chip-list"><span>MySQL</span><span>SQL</span></div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-cat">Testing</p>
+            <div class="chip-list"><span>API Testing</span><span>Software Testing</span></div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-cat">Tools</p>
+            <div class="chip-list"><span>Git</span><span>GitHub</span><span>XAMPP</span><span>FTP</span><span>Claude AI</span><span>ChatGPT</span><span>Microsoft Power Platform</span></div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-cat">Soft Skills</p>
+            <div class="chip-list"><span>Teamwork</span><span>Communication</span><span>Time Management</span><span>Problem Solving</span><span>Troubleshooting</span></div>
+          </div>
+        </div>
+
+        <div class="glass-card" data-aos="fade-up" data-aos-delay="160">
+          <h3 class="resume-subhead"><i class="fa-solid fa-certificate"></i> Certifications</h3>
+          <ul class="cert-list">
+            <li><i class="fa-solid fa-circle-check"></i> Introduction to Software Testing — Coursera</li>
+            <li><i class="fa-solid fa-circle-check"></i> Introduction to Agile Development and Scrum — Coursera</li>
+            <li><i class="fa-solid fa-circle-check"></i> Introduction to Software Engineering — Coursera</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section section-alt">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <p class="section-eyebrow justify-content-center">// contact</p>
+      <h2 class="section-title">Let's Build Your Next Website</h2>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-lg-5" data-aos="fade-right">
+        <div class="glass-card contact-info-card">
+          <div class="contact-row">
+            <i class="fa-solid fa-phone"></i>
+            <div><span>Phone</span><a href="tel:+916359495452">+91 6359495452</a></div>
+          </div>
+          <div class="contact-row">
+            <i class="fa-solid fa-envelope"></i>
+            <div><span>Email</span><a href="mailto:himmatjprajapati@gmail.com">himmatjprajapati@gmail.com</a></div>
+          </div>
+          <div class="contact-row">
+            <i class="fa-solid fa-location-dot"></i>
+            <div><span>Location</span><a href="#">Thaltej, Ahmedabad, Gujarat</a></div>
+          </div>
+          <a href="https://wa.me/916359495452" target="_blank" rel="noopener" class="btn btn-whatsapp w-100 mt-2">
+            <i class="fa-brands fa-whatsapp me-2"></i>Chat on WhatsApp
+          </a>
+          <div class="map-embed">
+            <iframe src="https://www.google.com/maps?q=Thaltej,Ahmedabad,Gujarat&output=embed" width="100%" height="220" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Location map - Thaltej, Ahmedabad"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-7" data-aos="fade-left">
+        <form id="contactForm" class="glass-card contact-form" novalidate>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label" for="cf-name">Name</label>
+              <input type="text" class="form-control" id="cf-name" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="cf-email">Email</label>
+              <input type="email" class="form-control" id="cf-email" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="cf-phone">Phone</label>
+              <input type="tel" class="form-control" id="cf-phone">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="cf-subject">Subject</label>
+              <input type="text" class="form-control" id="cf-subject">
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="cf-message">Message</label>
+              <textarea class="form-control" id="cf-message" rows="5" required></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-gradient w-100">Send Message</button>
+              <p id="cf-status" class="cf-status"></p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="section cta-section">
+  <div class="container text-center" data-aos="zoom-in">
+    <h2 class="cta-title">Need a Website?</h2>
+    <p class="cta-text">I develop all types of professional websites — from a single landing page to a full multi-module ERP.</p>
+    <div class="cta-tags">
+      <span>Business Website</span><span>Salon ERP</span><span>School Management</span><span>Hostel Management</span>
+      <span>Hospital Management</span><span>Astrology Website</span><span>Personal Portfolio</span><span>E-commerce Website</span>
+      <span>Billing Software</span><span>Inventory System</span><span>Custom Laravel Applications</span>
+    </div>
+    <a href="#contact" class="btn btn-gradient btn-lg mt-4">Get Free Consultation</a>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <span class="brand-mark">H</span><span class="brand-text">Himmat<span class="text-gradient">.dev</span></span>
+        <p>Full Stack Web Developer · Laravel Developer</p>
+      </div>
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/himmat-prajapati-78a00b285" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/himmat6359" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:himmatjprajapati@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://wa.me/916359495452" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <hr>
+    <p class="footer-copy">© 2026 Himmat Prajapati. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/916359495452" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- Back to top -->
+<button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
