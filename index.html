@@ -1044,41 +1044,7 @@ function typeLoop(){
 typeLoop();
 
 /* ===== TERMINAL CODE TYPE-OUT ===== */
-const codeLines=[
- {t:'kw',c:'class '},{t:'cls',c:'DeveloperProfile'},{t:'plain',c:' extends '},{t:'cls',c:'Model'},{t:'plain',c:'\n{'},
- {t:'br'},
- {t:'plain',c:'    '},{t:'kw',c:'protected '},{t:'var',c:'$name'},{t:'plain',c:' = '},{t:'str',c:"'Himmat Prajapati'"},{t:'plain',c:';'},
- {t:'br'},
- {t:'plain',c:'    '},{t:'kw',c:'protected '},{t:'var',c:'$role'},{t:'plain',c:' = '},{t:'str',c:"'Laravel Developer'"},{t:'plain',c:';'},
- {t:'br'},
- {t:'plain',c:'    '},{t:'com',c:'// builds ERP, salon, hostel & hospital systems'},
- {t:'br'},
- {t:'plain',c:'    '},{t:'kw',c:'public function '},{t:'fn',c:'buildSoftware'},{t:'plain',c:'('},{t:'var',c:'$idea'},{t:'plain',c:')'},
- {t:'br'},
- {t:'plain',c:'    {'},
- {t:'br'},
- {t:'plain',c:'        '},{t:'kw',c:'return '},{t:'plain',c:'new '},{t:'cls',c:'Solution'},{t:'plain',c:'('},{t:'var',c:'$idea'},{t:'plain',c:')'},
- {t:'br'},
- {t:'plain',c:'            '},{t:'plain',c:'->'},{t:'fn',c:'secure'},{t:'plain',c:'()'},
- {t:'br'},
- {t:'plain',c:'            '},{t:'plain',c:'->'},{t:'fn',c:'scale'},{t:'plain',c:'()'},
- {t:'br'},
- {t:'plain',c:'            '},{t:'plain',c:'->'},{t:'fn',c:'ship'},{t:'plain',c:'();'},
- {t:'br'},
- {t:'plain',c:'    }'},
- {t:'br'},
- {t:'plain',c:'}'}
-];
-const termBody=document.getElementById('terminal-code');
-function renderTermStatic(){
-  let out='';
-  codeLines.forEach(seg=>{
-    if(seg.t==='br'){out+='<br>';return;}
-    out+='<span class="tk-'+seg.t+'">'+seg.c.replace(/</g,'&lt;')+'</span>';
-  });
-  termBody.innerHTML=out+'<span class="code-caret"></span>';
-}
-renderTermStatic();
+ 
 
 /* ===== SCROLL COUNTERS ===== */
 const counters=document.querySelectorAll('.counter');
